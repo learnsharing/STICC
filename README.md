@@ -39,8 +39,12 @@ Data Preparation
 
    * For MAE and WRAE, it is slightly better than the paper. The matrics are as follows:
 
-   | Method | MAE | RMSE | WRAE| 
-    | ------ | --- | --- | --- |
-    | Paper  | 8.86 | 17.69| 12.6|
-    | Repo   | 8.64 | 18.70| 11.76|
-    ||
+| Method | MAE | RMSE | WRAE| 
+| ------ | --- | --- | --- |
+| Paper  | 8.86 | 17.69| 12.6|
+| Repo   | 8.64 | 18.70| 11.76|
+||d
+
+# Acknowledgement
+
+We thank the authors of [PAT](https://arxiv.org/pdf/2106.04095) and [STMN]() for their excellent work.
