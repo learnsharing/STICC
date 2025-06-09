@@ -30,14 +30,14 @@ pip install -r requirements.txt
 ```
 
 Data Preparation
-- **PARI-1581**:Download PRAI-1581 dataset from this link.
-- **Occluded Duke**:Download the dataset from Baidu disk or from the original dataset link.
+- **PARI-1581** : Download PRAI-1581 dataset from this link.
+- **Occluded Duke** : Download the dataset from Baidu disk or from the original dataset link.
 
 ### Usage
 
 2.Inference.
 
-   * Evaulations on PRAI-1581 Dataset.The results are as follows:
+   * Evaulations on PRAI-1581 Dataset. The results are as follows:
 
 | Dataset | Rank-1 | Rank-5 | Rank-10| Rank-20|
 | ------ | --- | --- | --- | --- |
