@@ -37,9 +37,9 @@ Data Preparation
 
 2.Inference.
 
+   * For MAE and WRAE, it is slightly better than the paper. The matrics are as follows:
 
-
-    | Method | MAE | RMSE | WRAE| 
+   | Method | MAE | RMSE | WRAE| 
     | ------ | --- | --- | --- |
     | Paper  | 8.86 | 17.69| 12.6|
     | Repo   | 8.64 | 18.70| 11.76|
