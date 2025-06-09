@@ -38,8 +38,9 @@ Data Preparation
 2.Inference
 
    * For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
-   | Dataset | Rank-1 | Rank-5 | Rank-10 | Rank-20 | mAP | 
-    | ------ | --- | --- | --- | --- | --- |
-     | Paper  | 8.86 | 17.69| 12.6| 12.6| 12.6|
-    | Repo   | 8.64 | 18.70| 11.76| 12.6| 12.6|
+      | Method | MAE | RMSE | WRAE| 
+    | ------ | --- | --- | --- |
+    | Paper  | 8.86 | 17.69| 12.6|
+    | Repo   | 8.64 | 18.70| 11.76|
     ||
+
