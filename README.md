@@ -15,14 +15,31 @@ The STICC architecture include:
 
 The common Info encoding is collaboratively optimized together with the individual-specific Info encoding and the decoders. The fine-grained and semantic-aware representation vectors are concatenated to form a comprehensive representation for person re-ID inference. 
 
-## Environment
+## Setup
+
+### Installation
+
+Clone and set up the STICC repository
+
 ```
-python >=3.6 
-pytorch >=1.4
-opencv-python >=4.0
-scipy >=1.4.0
-h5py >=2.10
-pillow >=7.0.0
-imageio >=1.18
-nni >=2.0 (python3 -m pip install --upgrade nni)
+git clone https://github.com/learning/STICC/main
+cd STICC
+conda create -n STICC python=3.7
+conda activate STICC
+pip install -r requirements.txt
 ```
+
+Data Preparation
+- **PARI-1581**:Download PRAI-1581 dataset from this link.
+- **Occluded Duke**:Download the dataset from Baidu disk or from the original dataset link.
+
+### Usage
+
+2.Inference
+
+* For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
+   | Dataset | Rank-1 | Rank-5 | Rank-10 | Rank-20 | mAP | 
+    | ------ | --- | --- | --- | --- | --- |
+    | Paper  | 8.86 | 17.69| 12.6| 17.69| 17.69|
+    | Repo   | 8.64 | 18.70| 11.76| 17.69| 17.69|
+    ||
