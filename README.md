@@ -37,12 +37,16 @@ Data Preparation
 
 2.Inference.
 
-   * For Rank-1, Rank-5, Rank-10, Rank-20 and mAP.The results are as follows:
+   * Evaulations on PRAI-1581 Dataset.The results are as follows:
 
-| Dataset | Rank-1 | Rank-5 | Rank-10| Rank-20| mAP |
-| ------ | --- | --- | --- | --- | --- |
-| PRAI-1581 | 8.86 | 17.69| 12.6| 12.6| 12.6|
-| Occluded Duke | 8.64 | 18.70| 11.76| 12.6| 12.6|
+| Dataset | Rank-1 | Rank-5 | Rank-10| Rank-20|
+| ------ | --- | --- | --- | --- |
+| PSTA | 52.4 | 78.5| 85.1| 88.9|
+| STMN | 60.5 | 84.3| 90.6| 93.7|
+| GRL | 59.0 | 83.3| 88.4| 93.9|
+| SiNet  | 46.1 | 74.4| 82.5| 88.6|
+| MSINet | 56.8 | 76.0| 81.8| 87.5|
+| Ours | 66.3 | 87.1| 91.4| 94.2|
 ||
 
 # Acknowledgement
