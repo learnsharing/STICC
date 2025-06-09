@@ -50,7 +50,7 @@ Data Preparation
 | Ours | 66.3 | 87.1| 91.4| 94.2|
 ||
 
-   * Evaulations on Occluded Duke Dataset.The results are as follows:
+   * Evaulations on Occluded Duke Dataset. The results are as follows:
 
 | Dataset | Rank-1 | Rank-5 | mAP|
 | ------ | --- | --- | --- |
