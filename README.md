@@ -41,12 +41,26 @@ Data Preparation
 
 | Dataset | Rank-1 | Rank-5 | Rank-10| Rank-20|
 | ------ | --- | --- | --- | --- |
+| BiCNet-TKS | 48.9 | 74.7| 81.3| 87.6|
 | PSTA | 52.4 | 78.5| 85.1| 88.9|
 | STMN | 60.5 | 84.3| 90.6| 93.7|
 | GRL | 59.0 | 83.3| 88.4| 93.9|
 | SiNet  | 46.1 | 74.4| 82.5| 88.6|
 | MSINet | 56.8 | 76.0| 81.8| 87.5|
 | Ours | 66.3 | 87.1| 91.4| 94.2|
+||
+
+   * Evaulations on Occluded Duke Dataset.The results are as follows:
+
+| Dataset | Rank-1 | Rank-5 | mAP|
+| ------ | --- | --- | --- |
+| BiCNet-TKS | 33.6 | 49.5| 33.4|
+| PSTA | 42.9 | 62.7| 43.4|
+| STMN | 42.2 | 62.7| 43.7|
+| GRL | 43.2 | 57.3| 43.4|
+| SiNet  | 40.0 | 58.0| 40.0|
+| MSINet | 40.3 | 62.4| 42.8|
+| Ours | 57.1 | 75.6| 56.6|
 ||
 
 # Acknowledgement
