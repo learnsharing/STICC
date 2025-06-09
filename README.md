@@ -40,6 +40,6 @@ Data Preparation
    * For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
    | Dataset | Rank-1 | Rank-5 | Rank-10 | Rank-20 | mAP | 
     | ------ | --- | --- | --- | --- | --- |
-    | PRAI-1581| 66.3 | 87.1| 91.4| 94.2|-|
-    | Occluded-Duke| 57.1 | 75.6| -| -| 56.6 |
+    | PRAI-1581| 66.3 | 87.1| 91.4| 94.2|2|
+    | Occluded-Duke| 57.1 | 75.6|2|2| 56.6 |
     ||
