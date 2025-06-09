@@ -35,7 +35,7 @@ Data Preparation
 
 ### Usage
 
-   2.Inference.
+2.Inference.
 
    * Evaulations on PRAI-1581 Dataset. The results are as follows:
 
