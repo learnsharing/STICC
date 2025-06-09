@@ -38,6 +38,7 @@ Data Preparation
 2.Inference
 
    * For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
+
       | Method | MAE | RMSE | WRAE| 
     | ------ | --- | --- | --- |
     | Paper  | 8.86 | 17.69| 12.6|
