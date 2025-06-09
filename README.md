@@ -4,7 +4,7 @@ Official PyTorch implementation of "Spatiotemporal Information Complementary Con
 ## Overview
 
 ## Inference Pipeline
-<div align="center">
+<div align="center" width="70%">
   <img src="https://github.com/learnsharing/STICC/blob/main/figures/STICC.png">
 </div>
 
