@@ -37,12 +37,12 @@ Data Preparation
 
 2.Inference.
 
-   * For MAE and WRAE, it is slightly better than the paper. The matrics are as follows:
+   * For Rank-1, Rank-5, Rank-10, Rank-20 and mAP. It is slightly better than the paper. The matrics are as follows:
 
-| Method | MAE | RMSE | WRAE| 
-| ------ | --- | --- | --- |
-| Paper  | 8.86 | 17.69| 12.6|
-| Repo   | 8.64 | 18.70| 11.76|
+| Dataset | Rank-1 | Rank-5 | Rank-10| Rank-20| mAP |
+| ------ | --- | --- | --- | --- | --- |
+| Paper  | 8.86 | 17.69| 12.6| 12.6| 12.6|
+| Repo   | 8.64 | 18.70| 11.76| 12.6| 12.6|
 ||d
 
 # Acknowledgement
