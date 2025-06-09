@@ -37,9 +37,9 @@ Data Preparation
 
 2.Inference
 
-* For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
+   * For Rank-1、Rank-5、Rank-10、Rank-20 and mAP, The result are as follows:
    | Dataset | Rank-1 | Rank-5 | Rank-10 | Rank-20 | mAP | 
     | ------ | --- | --- | --- | --- | --- |
-    | Paper  | 8.86 | 17.69| 12.6| 17.69| 17.69|
-    | Repo   | 8.64 | 18.70| 11.76| 17.69| 17.69|
+    | PRAI-1581| 66.3 | 87.1| 91.4| 94.2|-|
+    | Occluded-Duke| 57.1 | 75.6| -| -| 56.6 |
     ||
