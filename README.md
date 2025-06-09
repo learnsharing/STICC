@@ -47,4 +47,4 @@ Data Preparation
 
 # Acknowledgement
 
-We thank the authors of [PAT](https://arxiv.org/pdf/2106.04095) and [STMN]() for their excellent work.
+We thank the authors of [PAT](https://arxiv.org/pdf/2106.04095) and [STMN](https://cvlab-yonsei.github.io/projects/STMN) for their excellent work.
