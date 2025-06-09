@@ -33,6 +33,10 @@ Data Preparation
 - **PARI-1581** : Download PRAI-1581 dataset from this link.
 - **Occluded Duke** : Download the dataset from Baidu disk or from the original dataset link.
 
+```
+xqgy.unilogger.cn
+```
+
 ### Usage
 
 2.Inference.
