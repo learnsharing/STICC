@@ -56,11 +56,24 @@ Data Preparation
    python train.py
    ```
 2.Inference.
-
+   * Run the following command to evaluate the results.
+   ``` bash
+    python test.py
+    ```
    * Evaulations on PRAI-1581 Dataset. The results are as follows:
-  
 
-   * Evaulations on Occluded Duke Dataset. The results are as follows:
+| Dataset | Rank-1 | Rank-5 | mAP|
+| ------ | --- | --- | --- |
+| BiCNet-TKS | 33.6 | 49.5| 33.4|
+| PSTA | 42.9 | 62.7| 43.4|
+| STMN | 42.2 | 62.7| 43.7|
+| GRL | 43.2 | 57.3| 43.4|
+| SiNet  | 40.0 | 58.0| 40.0|
+| MSINet | 40.3 | 62.4| 42.8|
+| Ours | 57.1 | 75.6| 56.6|
+||
+
+  * Evaulations on Occluded Duke Dataset. The results are as follows:
 
 | Dataset | Rank-1 | Rank-5 | mAP|
 | ------ | --- | --- | --- |
