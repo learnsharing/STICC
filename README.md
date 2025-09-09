@@ -39,16 +39,26 @@ pip install -r requirements.txt
 ```
 
 Data Preparation
-- **PARI-1581** : Download PRAI-1581 dataset from this link.
+- **PARI-1581** : Download PRAI-1581 dataset from Baidu disk or from the original dataset link.
 - **Occluded Duke** : Download the dataset from Baidu disk or from the original dataset link.
+- **PETS2009** : Download the dataset from Baidu disk or from the original dataset link.
 
 
 ### Usage
-
+1.Training
+  * For training, you need to prepare the dataset and prepreocess the relevant data. The data format follows:
+   ```
+   x y
+   x y
+   ```
+   * The training script is as follows:
+   ``` bash
+   python train.py
+   ```
 2.Inference.
 
    * Evaulations on PRAI-1581 Dataset. The results are as follows:
-
+  
 
    * Evaulations on Occluded Duke Dataset. The results are as follows:
 
