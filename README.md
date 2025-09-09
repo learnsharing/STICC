@@ -84,6 +84,18 @@ the results of our method are highlighted in \colorbox{mybest}{blue}.
 | Ours | 57.1 | 75.6| 56.6|
 ||
 
+## Demo
+
+Our model processes video inputs to predict individual counts, operating over 3-second intervals.
+
+<p>
+  <img src="https://github.com/learnsharing/STICC/blob/master/scene1.gif" alt="GIF 1" style="width: 22%; margin-right: 5px;">
+  <img src="https://github.com/learnsharing/STICC/blob/master/scene2.gif" alt="GIF 2" style="width: 22%; margin-right: 5px;">
+  <img src="[statics/imgs/p3.gif](https://github.com/learnsharing/STICC/blob/master/scene3.gif)" alt="GIF 3" style="width: 22%; margin-right: 5px;">
+  <img src="[statics/imgs/p4.gif](https://github.com/learnsharing/STICC/blob/master/scene4.gif)" alt="GIF 4" style="width: 22%; margin-right: 5px;">
+</p>
+
+
 # Acknowledgement
 
 We thank the authors of [PAT](https://arxiv.org/pdf/2106.04095) and [STMN](https://cvlab-yonsei.github.io/projects/STMN) for their excellent work.
