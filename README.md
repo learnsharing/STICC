@@ -1,4 +1,4 @@
-# STICC for Video-based Person Re-identification
+# Spatiotemporal Information Complementary Condensation for Video-based Person Re-identification
 Official PyTorch implementation of "Spatiotemporal Information Complementary Condensation for Video-based Person Re-identification". 
 
 ## Overview
