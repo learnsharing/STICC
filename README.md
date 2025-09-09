@@ -59,7 +59,7 @@ Data Preparation
    * Run the following command to evaluate the results.
    ``` bash
     python test.py
-    ```
+   ```
    * Evaulations on PRAI-1581 Dataset. The results are as follows:
 
 | Dataset | Rank-1 | Rank-5 | mAP|
