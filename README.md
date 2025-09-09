@@ -91,6 +91,8 @@ Our model processes video inputs to predict individual counts, operating over 3-
 <p>
   <img src="https://github.com/learnsharing/STICC/blob/master/scene1.gif" alt="GIF 1" style="width: 44%; margin-right: 5px;">
   <img src="https://github.com/learnsharing/STICC/blob/master/scene2.gif" alt="GIF 2" style="width: 44%; margin-right: 5px;">
+</p>
+<p>
   <img src="https://github.com/learnsharing/STICC/blob/master/scene3.gif" alt="GIF 3" style="width: 44%; margin-right: 5px;">
   <img src="https://github.com/learnsharing/STICC/blob/master/scene4.gif" alt="GIF 4" style="width: 44%; margin-right: 5px;">
 </p>
