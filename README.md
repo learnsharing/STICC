@@ -9,12 +9,20 @@ Video-based person re-IDentification (re-ID) focuses on retrieving videos of the
 ![Inference Pipeline](./figures/STICC.png)
 
 The STICC architecture include:
-- **Identity-Discriminative Feature Encoding**: extract identity-discriminative features for each individual.
-- **Individual-Specific Feature Encoding**: emphasizes the extraction of shared identity-discriminative features among multiple individuals.
-- **Relevance-Guided Decoder**: employs relevance scores as weights to perform weighted condensation of the embeddings.
-- **Memory-Guided Decoder**: leverages dual memory modules to construct an attention mechanism for condensing the encoded embeddings. 
+- **Identity-Discriminative Feature Encoding**: Extracts identity-discriminative features for each individual.
+- **Individual-Specific Feature Encoding**: Emphasizes the extraction of shared identity-discriminative features among multiple individuals.
+- **Relevance-Guided Decoder**: Employs relevance scores as weights to perform weighted condensation of the embeddings.
+- **Memory-Guided Decoder**: Leverages dual memory modules to construct an attention mechanism for condensing the encoded embeddings. 
 
 The encoder first uses self-attention to extract common features of foreground pedestrians. It then constructs a cross-attention via a memory module that integrates and stores individual-specific features, enabling different frames to complement each other at corresponding body parts without requiring precise body alignment. The decoder condenses the encoded embeddings into two complementary representation vectors via two sub-decoders: a relevance-guided decoder generates a fine-grained representation vector to preserve local details, while a memory-guided decoder extracts an abstract semantic representation vector that strengthens identity-related cues.  
+
+## Demo
+
+Our model processes video inputs to predict individual counts, operating over 3-second intervals.
+
+| ![GIF 1](https://github.com/learnsharing/STICC/blob/master/scene1.gif?raw=true) | ![GIF 2](https://github.com/learnsharing/STICC/blob/master/scene2.gif?raw=true) |
+| :---: | :---: |
+| ![GIF 3](https://github.com/learnsharing/STICC/blob/master/scene3.gif?raw=true) | ![GIF 4](https://github.com/learnsharing/STICC/blob/master/scene4.gif?raw=true) |
 
 ## Setup
 
@@ -54,14 +62,6 @@ Data Preparation
 | MSINet | 40.3 | 62.4| 42.8|
 | Ours | 57.1 | 75.6| 56.6|
 ||
-
-## Demo
-
-Our model processes video inputs to predict individual counts, operating over 3-second intervals.
-
-| ![GIF 1](https://github.com/learnsharing/STICC/blob/master/scene1.gif?raw=true) | ![GIF 2](https://github.com/learnsharing/STICC/blob/master/scene2.gif?raw=true) |
-| :---: | :---: |
-| ![GIF 3](https://github.com/learnsharing/STICC/blob/master/scene3.gif?raw=true) | ![GIF 4](https://github.com/learnsharing/STICC/blob/master/scene4.gif?raw=true) |
 
 
 # Acknowledgement
