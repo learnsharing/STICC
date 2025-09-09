@@ -9,12 +9,12 @@ Video-based person re-IDentification (re-ID) focuses on retrieving videos of the
 ![Inference Pipeline](./figures/STICC.png)
 
 The STICC architecture include:
-- **Identity-Discriminative Feature Encoding**: Detects pedestrian coordinates.
-- **Individual-Specific Feature Encoding**: Detects pedestrian coordinates.
-- **Relevance-Guided Decoder**: The relevance-guided detail decoder employs relevance scores as weights to perform weighted condensation of the embeddings.
-- **Memory-Guided Decoder**: The memory-guided abstraction decoder leverages dual memory modules to construct an attention mechanism for condensing the encoded embeddings. 
+- **Identity-Discriminative Feature Encoding**: extract identity-discriminative features for each individual.
+- **Individual-Specific Feature Encoding**: emphasizes the extraction of shared identity-discriminative features among multiple individuals.
+- **Relevance-Guided Decoder**: employs relevance scores as weights to perform weighted condensation of the embeddings.
+- **Memory-Guided Decoder**: leverages dual memory modules to construct an attention mechanism for condensing the encoded embeddings. 
 
-The common Info encoding is collaboratively optimized together with the individual-specific Info encoding and the decoders. The fine-grained and semantic-aware representation vectors are concatenated to form a comprehensive representation for person re-ID inference. 
+The encoder first uses self-attention to extract common features of foreground pedestrians. It then constructs a cross-attention via a memory module that integrates and stores individual-specific features, enabling different frames to complement each other at corresponding body parts without requiring precise body alignment. The decoder condenses the encoded embeddings into two complementary representation vectors via two sub-decoders: a relevance-guided decoder generates a fine-grained representation vector to preserve local details, while a memory-guided decoder extracts an abstract semantic representation vector that strengthens identity-related cues.  
 
 ## Setup
 
