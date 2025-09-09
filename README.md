@@ -2,6 +2,7 @@
 Official PyTorch implementation of "Spatiotemporal Information Complementary Condensation for Video-based Person Re-identification". 
 
 ## Overview
+Video-based person re-IDentification (re-ID) focuses on retrieving videos of the same individual across different time periods and camera viewpoints. In contrast to image-based re-ID, video-based re-ID approaches can leverage Spatiotemporal (ST) Information (Info); however, it still grapples with key challenges, such as occlusion, inter-frame body misalignment, and background interference. A widely adopted strategy involves integrating attention mechanisms, which guide the model to focus on salient foreground regions. Yet, these attention regions, often overly localized and highly similar, tend to be unstable or susceptible to disturbance. Current methods attempt to expand the receptive field by shifting attention regions across frames, which heavily depends on an impractical assumption that body parts are spatially aligned. To address these issues, we propose the Spatiotemporal Information Complementary Condensation (STICC) model, which consists of an ST Info encoder and decoder.
 
 ## Inference Pipeline
 
