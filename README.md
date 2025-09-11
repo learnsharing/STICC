@@ -20,7 +20,7 @@ The encoder first uses self-attention to extract common features of foreground p
 
 Our model processes video inputs to predict individual counts, operating over 3-second intervals.
 
-| ![GIF 1](https://github.com/learnsharing/STICC/blob/master/scene1.gif?raw=true) | ![GIF 2](https://github.com/learnsharing/STICC/blob/master/scene2.gif?raw=true) |
+| ![GIF 1](./figures/scene1.gif) | ![GIF 2](https://github.com/learnsharing/STICC/blob/master/scene2.gif?raw=true) |
 | :---: | :---: |
 | ![GIF 3](https://github.com/learnsharing/STICC/blob/master/scene3.gif?raw=true) | ![GIF 4](https://github.com/learnsharing/STICC/blob/master/scene4.gif?raw=true) |
 
